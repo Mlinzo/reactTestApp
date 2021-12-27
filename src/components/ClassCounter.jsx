@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/App.css'
 
 /* DEPRECATED */
 export default class ClassCounter extends React.Component{
@@ -18,10 +19,12 @@ export default class ClassCounter extends React.Component{
     render(){
         return (
             <div>
-                <h1>Class Counter (Deprecated)</h1>
-                <h1>{this.state.count}</h1>
-                <button onClick={this.increment}>Up</button>
-                <button onClick={this.decrement}>Down</button>
+                <div className="counter">
+                    <h1>Class Counter (Deprecated)</h1>
+                    <h1>{this.state.count}</h1>
+                    <button onClick={this.increment}>Up</button>
+                    <button onClick={this.decrement}>Down</button>
+                </div>
                 <hr/>
             </div>
         )

@@ -33,7 +33,7 @@ export default function App() {
       <Counter/>
       <ClassCounter/>
       <TextChange/>
-      <div className='posts'>
+      <div>
         <PostList posts={posts1} title={"High-level languages"} remove={removePost1}/>
         <PostList posts={posts2} title={"Low-level languages"} remove={removePost2}/>
         <hr/>
