@@ -10,12 +10,12 @@ const Counter = function () {
 
     return (
         <div>
-            <div className='counter'>
+            <div className='centerText'>
                 <h1>Function Counter</h1>
                 <h1>{count}</h1>
-                <button onClick={increment}>Up</button>
-                <button onClick={decrement}>Down</button>
-            </div>
+                <button className='btn' onClick={increment}>Up</button>
+                <button className='btn' onClick={decrement}>Down</button>
+           </div>
             <hr/>
         </div>
     )

@@ -19,11 +19,11 @@ export default class ClassCounter extends React.Component{
     render(){
         return (
             <div>
-                <div className="counter">
+                <div className="centerText">
                     <h1>Class Counter (Deprecated)</h1>
                     <h1>{this.state.count}</h1>
-                    <button onClick={this.increment}>Up</button>
-                    <button onClick={this.decrement}>Down</button>
+                    <button className='btn' onClick={this.increment}>Up</button>
+                    <button className='btn' onClick={this.decrement}>Down</button>
                 </div>
                 <hr/>
             </div>
